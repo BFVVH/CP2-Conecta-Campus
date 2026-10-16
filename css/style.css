@@ -6,3 +6,30 @@ RM575563-VICTOR HENRIQUE LIMA ANDRADE
 RM574418-VICTOR SALES MARQUES
 */
 
+/* registra a fonte pra poder usar depois, ta puxando da pasta fonts*/
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/inter.ttf) format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Semibold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Inter";
+}
+
+h1, h2, h3 {
+    font-family: "Poppins";
+}
