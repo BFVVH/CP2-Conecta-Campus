@@ -22,9 +22,9 @@ RM574418-VICTOR SALES MARQUES
     font-display: swap;
 }
 @font-face {
-    font-family: "Isometra";
-    src: url(../fonts/Isometra-Regular.ttf) format("truetype");
-    font-weight: 400;
+    font-family: "valve";
+    src: url(../fonts/valve.otf) format("truetype");
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -49,7 +49,7 @@ header{
 }
 
 .marca {
-    font-family: "Isometra";
+    font-family: "valve";
 }
 
 
