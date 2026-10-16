@@ -54,6 +54,13 @@ header{
     font-size: 3rem;
 }
 
+footer {
+    width: 100%;
+    font-size: 0.75rem;
+    color: #383838;
+    text-align: center;
+}
+
 /* medida pra Mobile */
 @media (max-width:600px){
     .cartao{
