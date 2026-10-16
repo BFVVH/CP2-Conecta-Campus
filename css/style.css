@@ -44,7 +44,7 @@ h1, h2, h3 {
 header{
     width: 100%;
     font-size: 1.5rem;
-    background-color: #54a5f088;
+    background-color: #657f9c;
     color: #000000;
 }
 
@@ -52,4 +52,39 @@ header{
     font-family: "valve";
 }
 
+/* medida pra Mobile */
+@media (max-width:600px){
+    .cartao{
+        background-color: #657f9c;
+        padding: 5%;
+    }
 
+    img{
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    } 
+}
+
+@media (min-width:601px){
+    .menu{
+        width: 100%;
+        list-style: none;
+    }
+    
+    .menu li{
+        display: inline-block;
+        margin: 5% 0;
+    }
+
+    .menu li a{
+        display: block;
+        background-color: #fff;
+        color: #1e1e1e;
+        padding: 2%;
+        border-radius: 5px;
+        width: 11rem;
+        text-align: center;
+        font-size: 1.5rem;    
+    }
+}
