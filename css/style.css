@@ -23,7 +23,7 @@ RM574418-VICTOR SALES MARQUES
 }
 @font-face {
     font-family: "valve";
-    src: url(../fonts/valve.otf) format("truetype");
+    src: url(../fonts/valve.otf) format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
