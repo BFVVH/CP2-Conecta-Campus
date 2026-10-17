@@ -31,10 +31,13 @@ RM574418-VICTOR SALES MARQUES
 
 *{
     box-sizing: border-box;
+    padding: 0.1%
 }
 
 html{
     font-family: "Inter";
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 h1, h2, h3 {
@@ -63,6 +66,18 @@ footer {
 
 /* medida pra Mobile */
 @media (max-width:600px){
+        header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+     .marca {
+        font-size: 2rem;
+        text-align: center;
+    }
+
     .cartao{
         background-color: #657f9c;
         padding: 5%;
@@ -73,6 +88,40 @@ footer {
         display: block;
         margin: 0 auto;
     } 
+
+        .menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.3rem;
+        margin: 5% 0 5% 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .menu li a{
+        display: inline-block;
+        background-color: #6292ec;
+        color: #ffffff;
+        padding: 1%;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1rem;
+        text-decoration: none;
+        padding: 0.2rem 1rem;
+        width: auto;
+        border: 3px solid #3a69af;
+    }
+
+        .menu li a:hover{
+        background-color: #3a69af;
+        border: 3px solid #6292ec;
+    }
+
+    .menu li a:focus-visible{
+        outline: 3px solid #3a69af;
+        outline-offset: 2px;
+    }
 }
 
 @media (min-width:601px){
@@ -111,8 +160,18 @@ footer {
         border: 3px solid #3a69af;
     }
 
+    .menu li a:hover{
+        background-color: #3a69af;
+        border: 3px solid #6292ec;
+    }
+
+    .menu li a:focus-visible{
+        outline: 3px solid #3a69af;
+        outline-offset: 2px;
+    }
+
     img {
-        max-width: 100%;
+        max-width: 50%;
         height: auto;
     }
 }
