@@ -4,6 +4,10 @@ Projeto da CP2 de HTML, CSS e Git da turma 1TDSPA.
 
 Site com informações sobre os locais e serviços de um campus, detalhes dos espaços e apresentação dos integrantes.
 
+## Link do Github Pages
+
+https://bfvvh.github.io/CP2-Conecta-Campus/
+
 ## Como abrir
 
 Clone o repositório:
