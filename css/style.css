@@ -70,6 +70,16 @@ hr {
     background-color: #6292ec;
 }
 
+      .menu li a:hover{
+        background-color: #3a69af;
+        border: 3px solid #6292ec;
+    }
+
+    .menu li a:focus-visible{
+        outline: 3px solid #3a69af;
+        outline-offset: 2px;
+    }
+
 
 /* pagina de integrantes */
 
@@ -104,10 +114,24 @@ hr {
     min-height: 3em;
 }
 
-.linkedin-icon, .github-icon {
-    width: 20%;
-    margin-right: 0.5rem;
+.integrante-links img {
+    width: 48px;
+    height: 48px;
+    max-width: none;
+    margin: 0;
+    object-fit: contain;
 }
+
+.integrante-links {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.integrantes-links a {
+    display:flex;
+    flex: 0 0 auto;
+}
+
 
 /* medida pra Mobile */
 @media (max-width:600px){
@@ -158,15 +182,6 @@ hr {
         border: 3px solid #3a69af;
     }
 
-        .menu li a:hover{
-        background-color: #3a69af;
-        border: 3px solid #6292ec;
-    }
-
-    .menu li a:focus-visible{
-        outline: 3px solid #3a69af;
-        outline-offset: 2px;
-    }
 }
 
 @media (min-width:601px){
@@ -203,16 +218,6 @@ hr {
         padding: 0.3rem 1rem;
         width: auto;
         border: 3px solid #3a69af;
-    }
-
-    .menu li a:hover{
-        background-color: #3a69af;
-        border: 3px solid #6292ec;
-    }
-
-    .menu li a:focus-visible{
-        outline: 3px solid #3a69af;
-        outline-offset: 2px;
     }
 
     img {
