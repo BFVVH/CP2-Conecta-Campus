@@ -16,7 +16,7 @@ RM574418-VICTOR SALES MARQUES
 }
 @font-face {
     font-family: "Poppins";
-    src: url(../fonts/Poppins-Semibold.ttf) format("truetype");
+    src: url(../fonts/Poppins-SemiBold.ttf) format("truetype");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -32,7 +32,6 @@ RM574418-VICTOR SALES MARQUES
 /*geral */
 *{
     box-sizing: border-box;
-    padding: 0.1%
 }
 
 html{
@@ -71,7 +70,7 @@ hr {
 }
 
       .menu li a:hover{
-        background-color: #3a69af;
+        background-color: #284e91;
         border: 3px solid #6292ec;
     }
 
@@ -127,7 +126,7 @@ hr {
     gap: 0.3rem;
 }
 
-.integrantes-links a {
+.integrante-links a {
     display:flex;
     flex: 0 0 auto;
 }
@@ -157,7 +156,7 @@ hr {
     min-width: 0;
 }
 
-.cartao-evento, .cartao-imagem.evento {
+.cartao-evento, .cartao-imagem-evento {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -218,7 +217,7 @@ hr {
 
         .menu li a{
         display: inline-block;
-        background-color: #6292ec;
+        background-color: #3a69af;
         color: #ffffff;
         padding: 1%;
         border-radius: 5px;
@@ -256,7 +255,7 @@ hr {
 
     .menu li a{
         display: inline-block;
-        background-color: #6292ec;
+        background-color: #3a69af;
         color: #ffffff;
         padding: 1%;
         border-radius: 5px;
